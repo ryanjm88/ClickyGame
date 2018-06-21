@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Sterling",
+        "image": "https://vignette.wikia.nocookie.net/archer/images/3/3f/Sterling_Archer_Standing_POSE.png/revision/latest?cb=20151123090437",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "name": "Lana",
+        "image": "https://vignette.wikia.nocookie.net/archer/images/e/e8/Lana_Kane.png/revision/latest?cb=20151013033343",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "name": "Malory",
+        "image": "https://vignette.wikia.nocookie.net/archer/images/2/26/Malory_Archer.png/revision/latest?cb=20141013063353",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "name": "Ray",
+        "image": "https://vignette.wikia.nocookie.net/archer/images/6/62/Ray_Gillette.png/revision/latest?cb=20151013031515",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "name": "Pam",
+        "image": "https://vignette.wikia.nocookie.net/archer/images/b/b9/Pam_Poovey.png/revision/latest?cb=20141013063722",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "name": "Cheryl",
+        "image": "https://vignette.wikia.nocookie.net/archer/images/f/fb/Cheryl_Tunt01.png/revision/latest/scale-to-width-down/1000?cb=20151013030824",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "name": "Cyril",
+        "image": "https://vignette.wikia.nocookie.net/archer/images/d/dc/Cyril_Figgis.png/revision/latest?cb=20141013063526",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "name": "Kriger",
+        "image": "https://vignette.wikia.nocookie.net/archer/images/b/bb/Algernop_Krieger.png/revision/latest/scale-to-width-down/1000?cb=20151013042053",
+        "clicked": false
+    }
+]
