@@ -3,11 +3,10 @@ import CharacterCard from "./components/CharacterCard";
 import Nav from "./components/Nav";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
-import Container from "./Container";
+import Container from "./Container.js";
 import characters from "./characters.json";
 import Column from "./Column";
 import Row from "./Row";
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -78,8 +77,8 @@ class App extends Component {
         />
 
         <Title>
-          Try to click each character once, without clicking on
-          any character twice before clicking all eight. Good luck!
+          Try to click all eight characters without clicking the
+          same one twice!
         </Title>
 
         <Container>
