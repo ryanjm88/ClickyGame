@@ -67,6 +67,7 @@ class App extends Component {
   };
 
   render() {
+    console.log(this.state.characters)
     return (
       <Wrapper>
         <Nav
@@ -84,17 +85,11 @@ class App extends Component {
         <Container>
           <Row>
             {this.state.characters.map(character => (
-              <Column size="md-3 sm-6">
                 <CharacterCard
                   key={character.id}
                   handleClick={this.handleClick}
-                  handleIncrement={this.handleIncrement}
-                  handleReset={this.handleReset}
-                  handleShuffle={this.handleShuffle}
-                  id={character.id}
                   image={character.image}
                 />
-              </Column>
             ))}
           </Row>
         </Container>
