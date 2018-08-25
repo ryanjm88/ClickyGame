@@ -5,6 +5,7 @@ nav {
     background-color: rgb(56, 56, 56);
     height: 15%;
     font-family: 'Bungee', cursive;
+    padding-top: 2.5%;
   }
   
   a {
@@ -27,8 +28,3 @@ nav {
     align-items: center;
   }
   
-  @media only screen and (max-width: 750px) {
-    #cur-sco, #top-sco {
-      font-size: 2rem;
-    }
-  }
