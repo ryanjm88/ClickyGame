@@ -1,7 +1,8 @@
 .wrapper {
-    background: rgb(175, 175, 175);
+    background: rgb(175, 29, 29);
     background-image: url('https://i.kinja-img.com/gawker-media/image/upload/s--JC9EAPRG--/c_scale,f_auto,fl_progressive,q_80,w_800/18emxed6g8bipjpg.jpg');
     background-size: 100% auto;
+    background-position: center;
     background-repeat: no-repeat;
     height: 100%;
     display: flex;

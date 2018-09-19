@@ -19,11 +19,11 @@ class App extends Component {
   };
 
   handleClick = id => {
-    if (this.state.clicked.indexOf(id) === -1)  {
+    if (this.state.clicked.indexOf(id) === -1) {
       this.handleIncrement();
       this.setState({ clicked: this.state.clicked.concat(id) });
     }
-    else  {
+    else {
       this.handleReset();
     }
   };
@@ -34,11 +34,12 @@ class App extends Component {
       startScore: newScore,
       answered: ""
     });
-    if (newScore >= this.state.topScore)  {
+    if (newScore >= this.state.topScore) {
       this.setState({ topScore: newScore });
     }
-    if (newScore === 8)  {
-      this.setState({ answered: "It's a win!" })
+    if (newScore === 8) {
+      this.setState({ answered: "You won! Go pour yourself a martini." },
+      alert("It's a win!"));
     }
     this.handleShuffle();
   };
@@ -47,9 +48,10 @@ class App extends Component {
     this.setState({
       startScore: 0,
       topScore: this.state.topScore,
-      answered: "Oops!",
+      answered: "",
       clicked: []
-    });
+    },
+      alert("Oops!"));
     this.handleShuffle();
   };
 
@@ -58,8 +60,8 @@ class App extends Component {
     this.setState({ characters: shuffleChars });
   };
 
-  shuffleChars = (array) =>  {
-    for (let i = array.length -1; i > 0; i--) {
+  shuffleChars = (array) => {
+    for (let i = array.length - 1; i > 0; i--) {
       let j = Math.floor(Math.random() * (i + 1));
       [array[i], array[j]] = [array[j], array[i]];
     }
@@ -85,7 +87,7 @@ class App extends Component {
         <Container>
           <Row>
             {this.state.characters.map(character => (
-              <Column size = "md-3 sm-6">
+              <Column size="md-3 sm-6">
                 <CharacterCard
                   key={character.id}
                   handleClick={this.handleClick}

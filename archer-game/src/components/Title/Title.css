@@ -12,3 +12,13 @@
     padding-left: 3%;
     padding-right: 3%;  
 }
+
+@media (max-width: 575px)   {
+    .title  {
+        font-size: 12px;
+        margin-top: 10px;
+        width: 100%;
+        padding: 0px;
+        margin: 3px;
+    }
+}
