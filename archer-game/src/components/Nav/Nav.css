@@ -3,18 +3,21 @@ nav {
     color: #fff;
     /* margin-bottom: 50px; */
     background-color: rgb(56, 56, 56);
+    background-image: url('../../images/navPic.png');
+    background-repeat: no-repeat;
+    background-position: right;
     /* height: 15%; */
     font-family: 'Bungee', cursive;
     padding-top: 2.5%;
   }
   
   a {
-    color: #fed420;
+    color: powderblue;
     font-size: 20px;
   }
   
   a:hover {
-    color: #fed420;
+    color: powderblue;
     text-decoration: none;
   }
   
@@ -25,6 +28,13 @@ nav {
   
   ul {
     align-items: center;
+  }
+
+  @media (max-width: 600px) {
+    nav{
+      background-size: 50%;
+      background-position-y: 100%;
+    }
   }
   
   @media (max-width: 480px) {

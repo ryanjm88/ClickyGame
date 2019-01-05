@@ -3,6 +3,7 @@ import CharacterCard from "./components/CharacterCard";
 import Nav from "./components/Nav";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
+import Footer from "./components/Footer";
 import Container from "./Container.js";
 import characters from "./characters.json";
 import Column from "./Column";
@@ -100,6 +101,7 @@ class App extends Component {
               </Column>
             ))}
           </Row>
+          <Footer />
         </Container>
       </Wrapper>
     );
